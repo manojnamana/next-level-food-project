@@ -4,7 +4,9 @@ import classes from './page.module.css';
 
 import ImageSlideshow from '@/components/images/image-slideshow';
 
-export default function Home() {
+
+export default async function Home() {
+  
   return (
     <>
       <header className={classes.header}>
